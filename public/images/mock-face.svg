@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" class="w-full h-full bg-slate-50">
+  <!-- Soft medical background grid -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E2E8F0" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />
+  
+  <!-- Ambient teal scanning glow -->
+  <circle cx="200" cy="230" r="160" fill="#0E7490" opacity="0.04" filter="blur(20px)" />
+  <circle cx="200" cy="230" r="100" fill="#2563EB" opacity="0.03" filter="blur(15px)" />
+  
+  <!-- Stylized medical-grade vector face contour -->
+  <!-- Head Contour -->
+  <path d="M200,80 C120,80 100,160 100,240 C100,320 135,380 200,420 C265,380 300,320 300,240 C300,160 280,80 200,80 Z" 
+        fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Hair line / Brow guide -->
+  <path d="M120,160 C150,140 200,140 200,140 C200,140 250,140 280,160" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="3 3" />
+  
+  <!-- Eyes contour -->
+  <!-- Left Eye -->
+  <path d="M145,215 C155,205 175,205 185,215 C175,225 155,225 145,215 Z" fill="none" stroke="#64748B" stroke-width="1.5" />
+  <circle cx="165" cy="215" r="8" fill="none" stroke="#0E7490" stroke-width="2" />
+  <circle cx="165" cy="215" r="3" fill="#0E7490" />
+  
+  <!-- Right Eye -->
+  <path d="M215,215 C225,205 245,205 255,215 C245,225 225,225 215,215 Z" fill="none" stroke="#64748B" stroke-width="1.5" />
+  <circle cx="235" cy="215" r="8" fill="none" stroke="#0E7490" stroke-width="2" />
+  <circle cx="235" cy="215" r="3" fill="#0E7490" />
+  
+  <!-- Nose outline -->
+  <path d="M200,210 L200,270 C190,275 190,280 200,280 C210,280 210,275 200,270" fill="none" stroke="#64748B" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Lips contour -->
+  <path d="M165,330 C180,340 220,340 235,330 C220,325 180,325 165,330 Z" fill="none" stroke="#64748B" stroke-width="1.5" />
+  <path d="M165,330 C185,335 215,335 235,330" fill="none" stroke="#64748B" stroke-width="1" />
+  
+  <!-- Scanning HUD mesh lines and triangulation nodes (Futuristic Skincare Neural Network mapping) -->
+  <g opacity="0.35">
+    <line x1="200" y1="80" x2="200" y2="420" stroke="#0E7490" stroke-width="0.5" stroke-dasharray="2 2" />
+    <line x1="100" y1="240" x2="300" y2="240" stroke="#0E7490" stroke-width="0.5" stroke-dasharray="2 2" />
+    
+    <!-- Face Mapping Triangles -->
+    <!-- Forehead -->
+    <polygon points="200,120 165,160 200,175" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    <polygon points="200,120 235,160 200,175" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    
+    <!-- Cheeks & Eyes -->
+    <polygon points="165,215 165,270 135,240" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    <polygon points="235,215 235,270 265,240" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    <polygon points="200,280 165,270 200,310" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    <polygon points="200,280 235,270 200,310" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    <polygon points="200,340 165,380 200,405" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    <polygon points="200,340 235,380 200,405" fill="none" stroke="#00F2FE" stroke-width="0.5" />
+    
+    <!-- Nodes -->
+    <circle cx="200" cy="120" r="2.5" fill="#00F2FE" />
+    <circle cx="165" cy="160" r="2" fill="#00F2FE" />
+    <circle cx="235" cy="160" r="2" fill="#00F2FE" />
+    <circle cx="200" cy="175" r="2.5" fill="#00F2FE" />
+    <circle cx="135" cy="240" r="2.5" fill="#00F2FE" />
+    <circle cx="265" cy="240" r="2.5" fill="#00F2FE" />
+    <circle cx="165" cy="270" r="2.5" fill="#00F2FE" />
+    <circle cx="235" cy="270" r="2.5" fill="#00F2FE" />
+    <circle cx="200" cy="310" r="2.5" fill="#00F2FE" />
+    <circle cx="165" cy="380" r="2" fill="#00F2FE" />
+    <circle cx="235" cy="380" r="2" fill="#00F2FE" />
+    <circle cx="200" cy="405" r="2.5" fill="#00F2FE" />
+  </g>
+  
+  <!-- Clinical Target Rings (highlighting zones) -->
+  <!-- Forehead Target -->
+  <circle cx="180" cy="140" r="12" fill="none" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2 1" opacity="0.8" />
+  <circle cx="180" cy="140" r="2" fill="#EF4444" />
+  
+  <!-- Under-Eye Target -->
+  <circle cx="155" cy="235" r="14" fill="none" stroke="#D97706" stroke-width="1.5" stroke-dasharray="2 1" opacity="0.8" />
+  <circle cx="155" cy="235" r="2" fill="#D97706" />
+  
+  <!-- Cheek Target -->
+  <circle cx="140" cy="290" r="16" fill="none" stroke="#C2410C" stroke-width="1.5" stroke-dasharray="2 1" opacity="0.8" />
+  <circle cx="140" cy="290" r="2" fill="#C2410C" />
+</svg>
